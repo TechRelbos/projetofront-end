@@ -29,6 +29,7 @@ body{
     /*background-size: cover; /*ajusta a imagem ao tamanho do dispositivo*/
     /*background: (color ou image) (repetir ou nao) (posicao)/(preenchimento) isso eh um atalho/shortrange*/
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 body * {
     font-family: 'Inter', sans-serif;
@@ -169,7 +170,7 @@ footer {
     :root{
         --bg-url: url(./asset/bg_desktopdark.jpg);
     }
-    
+
     .light {
         --bg-url: url(./assets/bg_desktoplight.jpg);
     }
